@@ -1,18 +1,56 @@
 #container{
-  width:30px;
+  width:100%;
   margin-top:50px;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
+  position:absolute;
+  top:350px;
+  left:0px;
+  display:flex;
 
+  align-items: center;
+  justify-content: center;
+}
+#person{
+  position:fixed;
+  width:100%;
+  top:100px;
 }
 #buttons{
-  float:right;
+  text-align:center;
+  margin-left:auto;
+  position:relative;
+  top:300px;
 }
 #container div{
-  min-height:30px;
+  min-height:50px;
+  min-width:50px;
   border-radius:25px;
 background-color: blue;
-opacity:0;
+opacity:0.4;
+
+display:inline-block;
+}
+#container div:hover{
+  cursor:pointer;
 }
 #container div:first-child{
   opacity:1;
+}
+#personname{
+  font-family: 'VT323', monospace;
+  font-size:45px;
+  text-align:center;
+}
+
+#persongitp{
+ font-family: helvetica,serif;
+ text-align:center;
+
+}
+a{
+  color:blue;
+  text-decoration: none;
+}
+#personshoutout{
+  text-align:center;
 }
