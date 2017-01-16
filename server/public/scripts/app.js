@@ -47,6 +47,7 @@ function switchPerson(person){
     $('#personname').text(person.name);
     $('#personshoutout').text(person.shoutout);
     $('#persongit').attr('href','http://www.github.com/'+person.githubUserName);
+    
   }, 500);
   // $('#person').animate({left:'0px'},500);
   $('#person').animate({opacity:1},500);
